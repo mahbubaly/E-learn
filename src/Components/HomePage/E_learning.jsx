@@ -19,30 +19,35 @@ import { Pagination } from 'swiper/modules';
 const E_learning = () => {
     return (
         <>
-            <div className='container mx-auto mt-[140px]'>
-                <div className='flex gap-[85px] items-center'>
-                    <div className='w-[615px]'>
-                        <h1 className='text-[46px] font-semibold leading-[60px]'>Why choose E-Learn for live learning?</h1>
-                        <p className='text-[20px] textBlack mt-[18px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,There are many variations of passages.</p>
+            <div className='container mx-auto lg:mt-[140px] mt-[85px] lg:p-0 p-5 '>
+                <div className='lg:flex gap-[85px] items-center'>
+
+                    <div className='block lg:hidden'>
+                        <img src={man_women} className='lg:w-[521px]' alt="" />
+                    </div>
+                    {/* Normal */}
+                    <div className='lg:w-[615px] mt-[30px] lg:mt-0 '>
+                        <h1 className='lg:text-[46px] text-[24px] font-semibold lg:leading-[60px] leading-[32px]'>Why choose E-Learn for live learning?</h1>
+                        <p className='lg:text-[20px] text-[14px] textBlack mt-[18px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,There are many variations of passages.</p>
 
                         <div className='flex justify-center items-center mt-[30px]'>
                             <div className=''>
 
-                                <div className='flex gap-[14px] items-center'>
+                                <div className='flex gap-[14px] lg:items-center'>
                                     <img src={tikRight} className='w-[24px] h-[24px]' alt="" />
-                                    <p className='lg;w-[557px] font-medium text-[22px]'>Learn creative skills to achieve your personal and professional goals.</p>
+                                    <p className='lg;w-[557px] font-medium text-[16px] lg:text-[22px]'>Learn creative skills to achieve your personal and professional goals.</p>
                                 </div>
-                                <div className='my-5 flex gap-[14px] items-center'>
+                                <div className='my-5 flex gap-[14px] lg:items-center'>
                                     <img src={tikRight} className='w-[24px] h-[24px]' alt="" />
-                                    <p className='lg;w-[557px] font-medium text-[22px]'>Tune in and level up at your own pace.</p>
+                                    <p className='lg;w-[557px] font-medium text-[16px] lg:text-[22px]'>Tune in and level up at your own pace.</p>
                                 </div>
-                                <div className='flex gap-[14px] items-center'>
+                                <div className='flex gap-[14px] lg:items-center'>
                                     <img src={tikRight} className='w-[24px] h-[24px]' alt="" />
-                                    <p className='lg;w-[557px] font-medium text-[22px]'>Go from dabbler to master in a matter of hours.</p>
+                                    <p className='lg;w-[557px] font-medium text-[16px] lg:text-[22px]'>Go from dabbler to master in a matter of hours.</p>
                                 </div>
-                                <div className='mt-5 flex gap-[14px] items-center'>
+                                <div className='mt-5 flex gap-[14px] lg:items-center'>
                                     <img src={tikRight} className='w-[24px] h-[24px]' alt="" />
-                                    <p className='lg;w-[557px] font-medium text-[22px]'>Connect with a global community of curious creatives.</p>
+                                    <p className='lg;w-[557px] font-medium text-[16px] lg:text-[22px]'>Connect with a global community of curious creatives.</p>
                                 </div>
 
 
@@ -51,7 +56,7 @@ const E_learning = () => {
                         </div>
 
                     </div>
-                    <div>
+                    <div className='lg:block hidden'>
                         <img src={man_women} className='w-[521px]' alt="" />
                     </div>
 
@@ -60,12 +65,12 @@ const E_learning = () => {
 
 
 
-                <div className='mt-[153px] justify-center flex gap-[30px]'>
-                    <h1 className='font-semibold lg:text-[46px] text-[24px]'>What learners are saying</h1>
-                    <img src={flyIcon} className=' w-[51px] h-[64px]  -mt-[20px]' alt="" />
+                <div className='mt-[90px] lg:mt-[153px] justify-center flex lg:gap-[30px] lg:px-0 px-5 '>
+                    <img src={flyIcon} className=' lg:w-[51px] w-[23px] h-[29px] lg:h-[64px] -mt-[30px]  lg:-mt-[20px]' alt="" />
+                    <h1 className='font-semibold lg:text-[46px] text-[24px] text-center '>What learners are saying</h1>
 
                 </div>
-                <p className='lg:w-[920px] mx-auto text-center text-[20px] textBlack mt-[18px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,There are many variations of passages.</p>
+                <p className='lg:w-[920px] mx-auto text-center text-[14px] lg:text-[20px] textBlack mt-[18px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,There are many variations of passages.</p>
 
                 {/* slider  */}
 
@@ -81,9 +86,9 @@ const E_learning = () => {
 
                     }}
                     breakpoints={{
-                        640: {
+                        320: {
                             slidesPerView: 1,
-                            spaceBetween: 20,
+                            spaceBetween: 50,
                         },
                         768: {
                             slidesPerView: 3,
@@ -283,16 +288,16 @@ const E_learning = () => {
                                 <h1 className='lg:text-[46px] lg:w-[710px] font-semibold text-center'>It's the Best time to start investing in learning more and improving yourself.</h1>
                             </div>
                         </div>
-                        <div className='flex justify-center mt-[50px] '>
+                        <div className='lg:flex justify-center mt-[50px] '>
                             <button className='lg:w-[169px] w-full  h-[60px] bg-primary rounded-[29px] text-[16px] font-semibold text-white hover:bg-red-800'>Join For Free</button>
                         </div>
-                        <div className='flex justify-center gap-[30px] mt-[50px]'>
+                        <div className='lg:flex justify-center gap-[30px] mt-[50px]'>
                             <div className='flex gap-[10px] items-center'>
                                 <img src={tikRight} className='w-[24px] h-[24px]' alt="" />
                                 <p className=' text-[18px]'>No credit card required</p>
                             </div>
 
-                            <div className='flex gap-[10px] items-center'>
+                            <div className='my-[10px] lg:my-0 flex gap-[10px] items-center'>
                                 <img src={tikRight} className='w-[24px] h-[24px]' alt="" />
                                 <p className=' text-[18px]'>Full access to all features</p>
                             </div>

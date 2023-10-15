@@ -12,7 +12,7 @@ const Banner = () => {
     return (
         <>
 
-            <div className='container mx-auto'>
+            <div className='container mx-auto lg:p-0 p-5'>
                 <div className='lg:flex gap-[100px] items-center justify-between lg:mt-[59px]'>
                     <div className='lg:w-[519px]'>
 

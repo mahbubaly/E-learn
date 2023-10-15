@@ -20,6 +20,7 @@ import img4 from '../../assets/Images/img4.png'
 import img5 from '../../assets/Images/img5.png'
 import img6 from '../../assets/Images/img6.png'
 import star from '../../assets/Images/Star.png'
+import Marquee from "react-fast-marquee";
 
 
 
@@ -27,19 +28,19 @@ import star from '../../assets/Images/Star.png'
 const OnlineCourses = () => {
     return (
         <>
-            <div className='container mx-auto mt-[115px]'>
-                <div className='lg:w-[920px] mx-auto'>
-                    <div className='flex gap-[41px] justify-center'>
-                        <img src={book} className='inline-block  w-[59px] h-[56px]' alt="" />
-                        <h1 className='text-[46px] font-semibold text-center w-[600px] leading-[60px]'> Explore 4000+ Free Online Courses</h1>
+            <div className='container mx-auto mt-[90px] lg:mt-[115px]'>
+                <div className='lg:w-[920px] mx-auto lg:p-0 p-5'>
+                    <div className='flex lg:gap-[41px] justify-center'>
+                        <img src={book} className='inline-block lg:mt-0 mt-[25px] w-[22px] h-[22px]  lg:w-[59px] lg:h-[56px]' alt="" />
+                        <h1 className='lg:text-[46px] text-[24px] font-semibold text-center w-[600px] lg:leading-[60px] leading-[32px]'> Explore 4000+ Free Online Courses</h1>
 
                     </div>
-                    <p className='text-[20px] mt-[18px] text-center'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,There are many variations of passages.</p>
+                    <p className='lg:text-[20px] text-[14px] mt-[18px] text-center'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,There are many variations of passages.</p>
 
                 </div>
 
                 {/* 8 div */}
-                <div className=' mt-[80px] '>
+                <div className='mt-[40px] lg:mt-[80px] lg:px-0 px-5 '>
                     <div className='lg:flex gap-[30px]'>
                         <div className=' box w-[270px] py-[25px] px-[19px]'>
                             <img src={art} className='w-[54px] h-[54px]' alt="" />
@@ -92,89 +93,152 @@ const OnlineCourses = () => {
 
                 {/* A Faster Way For To Grow And Upskill */}
 
-                <div className='mt-[153px] flex gap-[38px]'>
+                <div className='mt-[90px] lg:mt-[153px] flex lg:gap-[38px] lg:p-0 p-5'>
                     <h1 className='font-semibold lg:text-[46px] text-[24px]'>A Faster Way For To Grow And Upskill   </h1>
-                    <img src={flyIcon} className=' w-[51px] h-[64px]  -mt-[35px]' alt="" />
+                    <img src={flyIcon} className='w-[24px] h-[30px] lg:w-[51px] lg:h-[64px] mt-[30px]  lg:-mt-[35px]' alt="" />
 
                 </div>
-                <p className='lg:w-[920px] text-[20px] textBlack mt-[18px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,There are many variations of passages.</p>
+                <p className='lg:w-[920px] lg:p-0 px-5 text-[20px] textBlack mt-[18px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,There are many variations of passages.</p>
 
 
-                <div className='mt-[80px] flex gap-[109px]'>
-                    <div><img src={women} className='w-[470px] h-[516px]' alt="" /></div>
+
+                {/* Propel your career, get a degree, or expand your knowledge at any level */}
+                <div className='mt-[80px] lg:flex gap-[109px] lg:p-0 p-5'>
                     <div>
-                        <div className='px-[30px] w-[566px] h-[158px]  flex justify-center items-center  box '>
-                            <div className='flex gap-[34px]'>
-                                <img src={learner} className='w-[70px] h-[70px]' alt="" />
+                        <img src={women} className='lg:w-[470px] lg:h-[516px]' alt="" />
+                    </div>
+                    <div className='lg:mt-0 mt-[30px]'>
+
+                        {/* 1 */}
+                        <div className='  lg:px-[30px] lg:w-[566px] lg:h-[158px]  h-[126px]  pl-[16px] flex justify-center items-center  box '>
+                            <div className='flex gap-[14px]  lg:gap-[34px]'>
+                                <img src={learner} className='lg:w-[70px] w-[46px] lg:h-[70px] h-[46px] ' alt="" />
                                 <div>
-                                    <p className='text-lg textBlack'>For learners</p>
-                                    <h3 className='text-[22px] font-semibold mt-[8px]'>Propel your career, get a degree, or expand your knowledge at any level.</h3>
+                                    <p className='text-[14px] lg:text-lg textBlack'>For learners</p>
+                                    <h3 className='text-[16px] lg:text-[22px] font-semibold mt-[8px]'>Propel your career, get a degree, or expand your knowledge at any level.</h3>
                                 </div>
                             </div>
                         </div>
-                        <div className='my-[30px] bg-primary text-white px-[30px] w-[566px] h-[158px]  flex justify-center items-center  box '>
-                            <div className='flex gap-[34px]'>
-                                <img src={business} className='w-[70px] h-[70px]' alt="" />
+
+                        {/* 2 */}
+                        <div className='my-[30px] bg-primary text-white lg:px-[30px] lg:w-[566px] lg:h-[158px]  h-[126px]  pl-[16px] flex justify-center items-center  box'>
+                            <div className='flex gap-[14px]  lg:gap-[34px]'>
+                                <img src={business} className='lg:w-[70px] w-[46px] lg:h-[70px] h-[46px] ' alt="" />
                                 <div>
-                                    <p className='text-lg textWhite'>For Business</p>
-                                    <h3 className='text-[22px] font-semibold mt-[8px]'>Propel your career, get a degree, or expand your knowledge at any level.</h3>
+                                    <p className='text-[14px] lg:text-lg textWhite'>For Business</p>
+                                    <h3 className='text-[16px] lg:text-[22px] font-semibold mt-[8px]'>Propel your career, get a degree, or expand your knowledge at any level.</h3>
                                 </div>
                             </div>
                         </div>
-                        <div className='px-[30px] w-[566px] h-[158px]  flex justify-center items-center  box '>
-                            <div className='flex gap-[34px]'>
-                                <img src={education} className='w-[70px] h-[70px]' alt="" />
+
+                        {/* 3 */}
+                        <div className=' lg:px-[30px] lg:w-[566px] lg:h-[158px]  h-[126px]  pl-[16px] flex justify-center items-center  box'>
+                            <div className='flex gap-[14px]  lg:gap-[34px]'>
+                                <img src={education} className='lg:w-[70px] w-[46px] lg:h-[70px] h-[46px] ' alt="" />
                                 <div>
-                                    <p className='text-lg textBlack'>For Educators</p>
-                                    <h3 className='text-[22px] font-semibold mt-[8px]'>Propel your career, get a degree, or expand your knowledge at any level.</h3>
+                                    <p className='text-[14px] lg:text-lg textBlack'>For Educators</p>
+                                    <h3 className='text-[16px] lg:text-[22px] font-semibold mt-[8px]'>Propel your career, get a degree, or expand your knowledge at any level.</h3>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
+
+
+
 
 
                 {/*  Explore Courses */}
-                <div className='mt-[159px] lg:w-[920px] mx-auto'>
+                <div className='lg:mt-[159px] mt-[89px]  lg:w-[920px] mx-auto lg:px-0 px-5'>
                     <div className='flex gap-[20px] justify-center'>
-                        <img src={book} className='inline-block  w-[59px] h-[56px]' alt="" />
-                        <h1 className='text-[46px] font-semibold text-center  leading-[60px]'> Explore Courses</h1>
+                        <img src={book} className='inline-block w-[24px] h-[30px]  lg:w-[24px]  lg:h-[56px]' alt="" />
+                        <h1 className='text-[24px] lg:text-[46px] font-semibold text-center leading-[32px] lg:leading-[60px]'> Explore Courses</h1>
 
                     </div>
-                    <p className='text-[20px] mt-[18px] text-center'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,There are many variations of passages.</p>
+                    <p className='lg:text-[20px] text-[14px] mt-[18px] text-center'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,There are many variations of passages.</p>
 
                 </div>
 
-                {/* popular coding marketing */}
-                <div className='sectionPink lg:h-[120px] flex justify-center items-center mt-[80px]'>
-                    <div className='flex gap-[30px]'>
-                        <div>
-                            <button className='lg:w-[109px] w-full h-[44px] bg-primary rounded-[100px] text-[16px] font-semibold text-white hover:bg-red-800'>Popular</button>
+
+
+                <div>
+
+                    {/* popular ,  coding , marketing */}
+
+                    {/* Laptop version  */}
+                    <div className=' sectionPink hidden lg:block'>
+
+
+
+                        <div className=' lg:h-[120px] h-[96px] flex justify-center items-center mt-[30px]  lg:mt-[80px]'>
+                            <div className='flex gap-[30px]'>
+                                <div>
+                                    <button className='lg:w-[109px] w-[81px] h-[32px] lg:h-[44px] bg-primary rounded-[100px] lg:text-[16px] text-[14px] font-semibold text-white hover:bg-red-800'>Popular</button>
+                                </div>
+                                <div>
+                                    <button className='lg:w-[102px] w-[75px] h-[32px] lg:h-[44px] bg-[#fff] rounded-[100px] lg:text-[16px] text-[14px] font-semibold hover:text-white  textBlack hover:bg-primary'>Recent</button>
+                                </div>
+                                <div>
+                                    <button className='lg:w-[101px] w-[75px] h-[32px] lg:h-[44px] bg-[#fff] rounded-[100px] lg:text-[16px] text-[14px] font-semibold hover:text-white  textBlack hover:bg-primary'>Design</button>
+                                </div>
+                                <div>
+                                    <button className='lg:w-[125px] w-[100px] h-[32px] lg:h-[44px] bg-[#fff] rounded-[100px] text-[16px] font-semibold hover:text-white  textBlack hover:bg-primary'>Marketing</button>
+                                </div>
+                                <div>
+                                    <button className='lg:w-[103px] w-[80px]  lg:h-[44px] h-[32px] bg-[#fff] rounded-[100px] lg:text-[16px] text-[14px] font-semibold hover:text-white  textBlack hover:bg-primary'>Coding</button>
+                                </div>
+                            </div>
+
+
+
                         </div>
-                        <div>
-                            <button className='lg:w-[102px] w-full h-[44px] bg-[#fff] rounded-[100px] text-[16px] font-semibold hover:text-white  textBlack hover:bg-primary'>Recent</button>
-                        </div>
-                        <div>
-                            <button className='lg:w-[101px] w-full h-[44px] bg-[#fff] rounded-[100px] text-[16px] font-semibold hover:text-white  textBlack hover:bg-primary'>Design</button>
-                        </div>
-                        <div>
-                            <button className='lg:w-[125px] w-full h-[44px] bg-[#fff] rounded-[100px] text-[16px] font-semibold hover:text-white  textBlack hover:bg-primary'>Marketing</button>
-                        </div>
-                        <div>
-                            <button className='lg:w-[103px] w-full h-[44px] bg-[#fff] rounded-[100px] text-[16px] font-semibold hover:text-white  textBlack hover:bg-primary'>Coding</button>
-                        </div>
+
                     </div>
 
+                    {/* for mobile */}
+                    <div className=' sectionPink lg:hidden block'>
+
+
+
+                        <Marquee className=' lg:h-[120px] h-[96px] flex justify-center items-center mt-[30px]  lg:mt-[80px]'>
+                            <div className='flex gap-[30px]'>
+                                <div>
+                                    <button className='ml-[30px] lg:w-[109px] w-[81px] h-[32px] lg:h-[44px] bg-primary rounded-[100px] lg:text-[16px] text-[14px] font-semibold text-white hover:bg-red-800'>Popular</button>
+                                </div>
+                                <div>
+                                    <button className='lg:w-[102px] w-[75px] h-[32px] lg:h-[44px] bg-[#fff] rounded-[100px] lg:text-[16px] text-[14px] font-semibold hover:text-white  textBlack hover:bg-primary'>Recent</button>
+                                </div>
+                                <div>
+                                    <button className='lg:w-[101px] w-[75px] h-[32px] lg:h-[44px] bg-[#fff] rounded-[100px] lg:text-[16px] text-[14px] font-semibold hover:text-white  textBlack hover:bg-primary'>Design</button>
+                                </div>
+                                <div>
+                                    <button className='lg:w-[125px] w-[110px] h-[32px] lg:h-[44px] bg-[#fff] rounded-[100px] text-[16px] font-semibold hover:text-white  textBlack hover:bg-primary'>Marketing</button>
+                                </div>
+                                <div>
+                                    <button className='lg:w-[103px] w-[80px]  lg:h-[44px] h-[32px] bg-[#fff] rounded-[100px] lg:text-[16px] text-[14px] font-semibold hover:text-white  textBlack hover:bg-primary'>Coding</button>
+                                </div>
+                            </div>
+
+
+
+                        </Marquee>
+
+                    </div>
                 </div>
+
+
+
+
 
                 {/* video play */}
 
-                <div className='mt-[30px] lg:flex gap-[30px]'>
+                <div className='mt-[30px] lg:flex gap-[30px] lg:p-0 p-5'>
+                    {/* 1 */}
                     <div className='VideoBox hover:bg-primary hover:text-white lg:w-[370px] p-5'>
 
                         <img src={img1} alt="" />
                         <p className='text-[14px] font-medium mt-[40px] '>20hr 45m</p>
-                        <h2 className='text-[22px] font-semibold mt-[10px]'>Web Development: Complete Programming Course</h2>
+                        <h2 className='lg:text-[22px] text-[18px] font-semibold mt-[10px]'>Web Development: Complete Programming Course</h2>
 
                         <p className='text-[16px] font-medium  mt-[17px]'>by <span className=' font-semibold'>Joe Root</span></p>
 
@@ -202,7 +266,7 @@ const OnlineCourses = () => {
 
                         <img src={img2} alt="" />
                         <p className='text-[14px] font-medium mt-[40px]'>20hr 45m</p>
-                        <h2 className='text-[22px] font-semibold mt-[10px]'>AI: Complete Artificial Intelligence Course</h2>
+                        <h2 className='lg:text-[22px] text-[18px]  font-semibold mt-[10px]'>AI: Complete Artificial Intelligence Course</h2>
 
                         <p className='text-[16px] font-medium textWhite mt-[17px]'>by <span className='text-white font-semibold'>Joe Root</span></p>
 
@@ -230,7 +294,7 @@ const OnlineCourses = () => {
 
                         <img src={img3} alt="" />
                         <p className='text-[14px] font-medium mt-[40px] '>20hr 45m</p>
-                        <h2 className='text-[22px] font-semibold mt-[10px]'>BC: Complete Block Chain Programming Course </h2>
+                        <h2 className='lg:text-[22px] text-[18px]  font-semibold mt-[10px]'>BC: Complete Block Chain Programming Course </h2>
 
                         <p className='text-[16px] font-medium  mt-[17px]'>by <span className=' font-semibold'>Joe Root</span></p>
 
@@ -256,13 +320,13 @@ const OnlineCourses = () => {
 
                 </div>
 
-                <div className='mt-[30px] lg:flex gap-[30px]'>
+                <div className='mt-[30px] lg:flex gap-[30px] lg:px-0 px-5'>
                     {/* 4 */}
                     <div className='VideoBox hover:bg-primary hover:text-white lg:w-[370px] p-5'>
 
                         <img src={img4} alt="" />
                         <p className='text-[14px] font-medium mt-[40px] '>20hr 45m</p>
-                        <h2 className='text-[22px] font-semibold mt-[10px]'>Learn Python: Complete Python Programming Course </h2>
+                        <h2 className='lg:text-[22px] text-[18px]  font-semibold mt-[10px]'>Learn Python: Complete Python Programming Course </h2>
 
                         <p className='text-[16px] font-medium  mt-[17px]'>by <span className=' font-semibold'>Joe Root</span></p>
 
@@ -290,7 +354,7 @@ const OnlineCourses = () => {
 
                         <img src={img5} alt="" />
                         <p className='text-[14px] font-medium mt-[40px] '>20hr 45m</p>
-                        <h2 className='text-[22px] font-semibold mt-[10px]'>Design: Complete UI/UX Design Course</h2>
+                        <h2 className='lg:text-[22px] text-[18px]  font-semibold mt-[10px]'>Design: Complete UI/UX Design Course</h2>
 
                         <p className='text-[16px] font-medium  mt-[17px]'>by <span className=' font-semibold'>Joe Root</span></p>
 
@@ -318,7 +382,7 @@ const OnlineCourses = () => {
 
                         <img src={img6} alt="" />
                         <p className='text-[14px] font-medium mt-[40px] '>20hr 45m</p>
-                        <h2 className='text-[22px] font-semibold mt-[10px]'>AW: Complete Artwork Programming Course</h2>
+                        <h2 className='lg:text-[22px] text-[18px]  font-semibold mt-[10px]'>AW: Complete Artwork Programming Course</h2>
 
                         <p className='text-[16px] font-medium  mt-[17px]'>by <span className=' font-semibold'>Joe Root</span></p>
 
@@ -346,7 +410,7 @@ const OnlineCourses = () => {
 
                 </div>
 
-                <div className='flex justify-center mt-[50px]'>
+                <div className='flex justify-center mt-[50px] lg:px-0 px-5'>
                     <button className='lg:w-[221px] w-full h-[60px] bg-primary rounded-[29px] text-[16px] font-semibold text-white hover:bg-red-800'>Explore All Courses</button>
                 </div>
 

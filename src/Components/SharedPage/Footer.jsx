@@ -10,8 +10,8 @@ const Footer = () => {
     return (
         <>
             <>
-                <div className='container mx-auto mt-[100px]'>
-                    <div className='flex justify-between'>
+                <div className='container mx-auto mt-[100px] p-5 lg:p-0 '>
+                    <div className='lg:flex justify-between'>
                         <div className='w-[334px]'>
                             <Link to='/' className='text-primary  font-bold  text-[18px] lg:text-[30px]  '>E-Learn</Link>
                             <p className='text-[16px] mt-[13px]'>Learn anything from home with experts. Learn freelancing today. Quality Courses At Affordable Prices.</p>
@@ -59,7 +59,7 @@ const Footer = () => {
 
                         </div>
 
-                        <div className='flex gap-[90px]'>
+                        <div className='lg:flex gap-[90px]'>
                             <div>
                                 <h2 className='text-[18px] font-semibold'>Courses</h2>
                                 <Link className='text-[16px] mt-[20px] block'>Classroom Courses</Link>
@@ -91,7 +91,7 @@ const Footer = () => {
 
                     <hr  className='mt-[60px] hrLine'/>
 
-                    <p className='text-center text-[14px] my-[30px]'>Copyright 2023 all rights reserved by Designer Jubayer </p>
+                    <p className='text-center text-[14px] pb-[10px] mt-[30px]'>Copyright 2023 all rights reserved by Designer Jubayer Developed By Mahbub </p>
 
                 </div>
 
