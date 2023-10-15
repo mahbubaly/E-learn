@@ -1,0 +1,181 @@
+* {
+    font-family: 'Inter';
+}
+
+
+
+.signIn {
+    border-radius: 50px;
+    border: 1px solid rgba(238, 42, 82, 0.40);
+    background: rgba(238, 42, 82, 0.10);
+}
+
+.exploreCourse {
+    color: #260000;
+    border: 1px solid rgba(238, 42, 82, 0.40);
+
+    background: rgba(238, 42, 82, 0.10);
+
+
+}
+
+.Tutor {
+    border-radius: 18.36px;
+    border: 0.765px solid rgba(238, 42, 82, 0.40);
+    box-shadow: 0px 18px 40px 0px rgba(0, 0, 0, 0.10);
+
+}
+
+.box {
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+
+
+}
+
+.star {
+    background: rgba(0, 0, 0, 0.10);
+    ;
+}
+
+.textWhite {
+    color: rgba(255, 255, 255, 0.80);
+
+}
+
+.textBlack {
+    color: rgba(38, 0, 0, 0.70);
+
+
+}
+
+.sectionPink {
+    border-radius: 20px 20px 0px 0px;
+    background: rgba(238, 42, 82, 0.10);
+}
+
+.pinkBg {
+    background: rgba(238, 42, 82, 0.10);
+}
+
+.VideoBox {
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+
+
+}
+
+.slideBox {
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.10);
+
+    background: #FFF;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #EE2A52 !important;
+}
+
+.insectBg {
+    background-image: url(../../assets/Images/IntersectBg.png);
+}
+
+.GooApp {
+    border-radius: 10px;
+    border: 1px solid rgba(38, 0, 0, 0.70);
+
+    background: #FFF;
+}
+
+.hrLine {
+    border-radius: 0.5px;
+    background: rgba(38, 0, 0, 0.40);
+}
+
+/*  =====================================================================
+
+                         Responsive design
+
+======================================================================== */
+
+
+@media (min-width: 320px) {
+    .container {
+        max-width: 320px;
+
+        padding: 20px;
+
+    }
+
+}
+
+@media (min-width: 375px) {
+    .container {
+        max-width: 375px;
+
+    }
+
+}
+
+@media (min-width: 425px) {
+    .container {
+        max-width: 425px;
+
+    }
+
+}
+
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .container {
+        max-width: 1280px;
+
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 0;
+
+
+
+    }
+}
+
+@media (min-width: 1280px) {
+    .container {
+        max-width: 1280px;
+
+        padding-left: 50px;
+        padding-right: 50px;
+
+
+
+    }
+}
+
+@media (min-width: 1440px) {
+    .container {
+        max-width: 1440px;
+        padding-right: 135px;
+        padding-left: 135px;
+
+
+    }
+
+}
+
+
+@media (min-width: 1536px) {
+    .container {
+        max-width: 1536px;
+    }
+}
