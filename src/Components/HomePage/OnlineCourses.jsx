@@ -28,7 +28,7 @@ import Marquee from "react-fast-marquee";
 const OnlineCourses = () => {
     return (
         <>
-            <div className='container mx-auto mt-[90px] lg:mt-[115px]'>
+            <div className='container mx-auto mt-[80px] lg:mt-[115px]'>
                 <div className='lg:w-[920px] mx-auto lg:p-0 p-5'>
                     <div className='flex lg:gap-[41px] justify-center'>
                         <img src={book} className='inline-block lg:mt-0 mt-[25px] w-[22px] h-[22px]  lg:w-[59px] lg:h-[56px]' alt="" />
@@ -42,22 +42,22 @@ const OnlineCourses = () => {
                 {/* 8 div */}
                 <div className='mt-[40px] lg:mt-[80px] lg:px-0 px-5 '>
                     <div className='lg:flex gap-[30px]'>
-                        <div className=' box w-[270px] py-[25px] px-[19px]'>
+                        <div className=' box lg:w-[270px] py-[25px] px-[19px]'>
                             <img src={art} className='w-[54px] h-[54px]' alt="" />
                             <h1 className='text-[22px] font-semibold mt-[24px]'>Art & Design</h1>
                             <p className='text-lg mt-[14px] textBlack'>Live tech bootcamps and online classes to kickstart or accelerate your career</p>
                         </div>
-                        <div className='lg:my-0 my-[30px] box w-[270px] py-[25px] px-[19px]'>
+                        <div className='lg:my-0 my-[30px] box lg:w-[270px] py-[25px] px-[19px]'>
                             <img src={uiUx} className='w-[54px] h-[54px]' alt="" />
                             <h1 className='text-[22px] font-semibold mt-[24px]'>UI/UX Design</h1>
                             <p className='text-lg mt-[14px] textBlack'>Live tech bootcamps and online classes to kickstart or accelerate your career</p>
                         </div>
-                        <div className='box w-[270px] bg-primary  py-[25px] px-[19px]'>
+                        <div className='box lg:w-[270px] bg-primary  py-[25px] px-[19px]'>
                             <img src={digital} className='w-[54px] h-[54px]' alt="" />
                             <h1 className='text-[22px] font-semibold text-white mt-[24px]'>Digital Marketing</h1>
                             <p className='text-lg mt-[14px] textWhite '>Live tech bootcamps and online classes to kickstart or accelerate your career</p>
                         </div>
-                        <div className='lg:mt-0 mt-[30px] box w-[270px] py-[25px] px-[19px]'>
+                        <div className='lg:mt-0 mt-[30px] box lg:w-[270px] py-[25px] px-[19px]'>
                             <img src={dev} className='w-[54px] h-[54px]' alt="" />
                             <h1 className='text-[22px] font-semibold mt-[24px] textBlack'>Development </h1>
                             <p className='text-lg mt-[14px] '>Live tech bootcamps and online classes to kickstart or accelerate your career</p>
@@ -66,22 +66,22 @@ const OnlineCourses = () => {
 
 
                     <div className='lg:flex gap-[30px] mt-[30px]'>
-                        <div className='box w-[270px] py-[25px] px-[19px]'>
+                        <div className='box lg:w-[270px] py-[25px] px-[19px]'>
                             <img src={finance} className='w-[54px] h-[54px]' alt="" />
                             <h1 className='text-[22px] font-semibold mt-[24px]'>Finance</h1>
                             <p className='text-lg mt-[14px] textBlack'>Live tech bootcamps and online classes to kickstart or accelerate your career</p>
                         </div>
-                        <div className='lg:my-0 my-[30px] box w-[270px] py-[25px] px-[19px]'>
+                        <div className='lg:my-0 my-[30px] box lg:w-[270px] py-[25px] px-[19px]'>
                             <img src={music} className='w-[54px] h-[54px]' alt="" />
                             <h1 className='text-[22px] font-semibold mt-[24px]'>Sound & Music</h1>
                             <p className='text-lg mt-[14px] textBlack'>Live tech bootcamps and online classes to kickstart or accelerate your career</p>
                         </div>
-                        <div className='box w-[270px] py-[25px] px-[19px]'>
+                        <div className='box lg:w-[270px] py-[25px] px-[19px]'>
                             <img src={photo} className='w-[54px] h-[54px]' alt="" />
                             <h1 className='text-[22px] font-semibold mt-[24px]'>Photography</h1>
                             <p className='text-lg mt-[14px] textBlack'>Live tech bootcamps and online classes to kickstart or accelerate your career</p>
                         </div>
-                        <div className='lg:mt-0 mt-[30px] box w-[270px] py-[25px] px-[19px]'>
+                        <div className='lg:mt-0 mt-[30px] box lg:w-[270px] py-[25px] px-[19px]'>
                             <img src={webDes} className='w-[54px] h-[54px]' alt="" />
                             <h1 className='text-[22px] font-semibold mt-[24px]'>Web Design</h1>
                             <p className='text-lg mt-[14px] textBlack'>Live tech bootcamps and online classes to kickstart or accelerate your career</p>
@@ -93,21 +93,21 @@ const OnlineCourses = () => {
 
                 {/* A Faster Way For To Grow And Upskill */}
 
-                <div className='mt-[90px] lg:mt-[153px] flex lg:gap-[38px] lg:p-0 p-5'>
+                <div className='mt-[80px] lg:mt-[153px] flex lg:gap-[38px] lg:p-0 p-5'>
                     <h1 className='font-semibold lg:text-[46px] text-[24px]'>A Faster Way For To Grow And Upskill   </h1>
                     <img src={flyIcon} className='w-[24px] h-[30px] lg:w-[51px] lg:h-[64px] mt-[30px]  lg:-mt-[35px]' alt="" />
 
                 </div>
-                <p className='lg:w-[920px] lg:p-0 px-5 text-[20px] textBlack mt-[18px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,There are many variations of passages.</p>
+                <p className='lg:w-[920px] lg:p-0 px-5 text-[20px] textBlack mt-[10px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,There are many variations of passages.</p>
 
 
 
                 {/* Propel your career, get a degree, or expand your knowledge at any level */}
-                <div className='mt-[80px] lg:flex gap-[109px] lg:p-0 p-5'>
+                <div className=' lg:mt-[80px] mt-[30px] lg:flex gap-[109px] lg:p-0 p-5'>
                     <div>
                         <img src={women} className='lg:w-[470px] lg:h-[516px]' alt="" />
                     </div>
-                    <div className='lg:mt-0 mt-[30px]'>
+                    <div className='lg:mt-0 mt-[40px]'>
 
                         {/* 1 */}
                         <div className='  lg:px-[30px] lg:w-[566px] lg:h-[158px]  h-[126px]  pl-[16px] flex justify-center items-center  box '>
@@ -149,7 +149,7 @@ const OnlineCourses = () => {
 
 
                 {/*  Explore Courses */}
-                <div className='lg:mt-[159px] mt-[89px]  lg:w-[920px] mx-auto lg:px-0 px-5'>
+                <div className='lg:mt-[159px] mt-[80px]  lg:w-[920px] mx-auto lg:px-0 px-5'>
                     <div className='flex gap-[20px] justify-center'>
                         <img src={book} className='inline-block w-[24px] h-[30px]  lg:w-[24px]  lg:h-[56px]' alt="" />
                         <h1 className='text-[24px] lg:text-[46px] font-semibold text-center leading-[32px] lg:leading-[60px]'> Explore Courses</h1>

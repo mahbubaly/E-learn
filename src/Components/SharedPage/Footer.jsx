@@ -10,26 +10,26 @@ const Footer = () => {
     return (
         <>
             <>
-                <div className='container mx-auto mt-[100px] p-5 lg:p-0 '>
+                <div className='container mx-auto mt-[75px] lg:mt-[100px] p-5 lg:p-0 '>
                     <div className='lg:flex justify-between'>
-                        <div className='w-[334px]'>
+                        <div className='lg:w-[334px]'>
                             <Link to='/' className='text-primary  font-bold  text-[18px] lg:text-[30px]  '>E-Learn</Link>
                             <p className='text-[16px] mt-[13px]'>Learn anything from home with experts. Learn freelancing today. Quality Courses At Affordable Prices.</p>
 
                             <div className='my-[30px] flex gap-[13px]'>
-                                <Link className='w-[36px] flex justify-center items-center border-[1.5px] border-primary hover:border-primary h-[36px] bg-primary rounded-[50%] text-white'>
+                                <Link className='w-[36px] flex justify-center items-center border-[1px] border-primary hover:border-primary h-[36px] bg-primary rounded-[50%] text-white'>
                                     <BiLogoFacebook className='w-[24px] h-[24px]' />
                                 </Link>
 
-                                <Link className='w-[36px] flex justify-center items-center border-[1.5px] border-black hover:border-primary h-[36px] rounded-[50%] hover:bg-primary hover:text-white'>
+                                <Link className='w-[36px] flex justify-center items-center border-[1px] border-black hover:border-primary h-[36px] rounded-[50%] hover:bg-primary hover:text-white'>
                                     <BiLogoLinkedin className='w-[20px] h-[20px]' />
                                 </Link>
 
-                                <Link className='w-[36px] flex justify-center items-center border-[1.5px] border-black hover:border-primary h-[36px] rounded-[50%] hover:bg-primary hover:text-white'>
+                                <Link className='w-[36px] flex justify-center items-center border-[1px] border-black hover:border-primary h-[36px] rounded-[50%] hover:bg-primary hover:text-white'>
                                     <AiOutlineTwitter className='w-[20px] h-[20px]' />
                                 </Link>
 
-                                <Link className='w-[36px] flex justify-center items-center border-[1.5px] border-black hover:border-primary h-[36px] rounded-[50%] hover:bg-primary hover:text-white'>
+                                <Link className='w-[36px] flex justify-center items-center border-[1px] border-black hover:border-primary h-[36px] rounded-[50%] hover:bg-primary hover:text-white'>
                                     <AiOutlineInstagram className='w-[20px] h-[20px]' />
                                 </Link>
                             </div>
