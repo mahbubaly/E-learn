@@ -91,7 +91,7 @@ const Footer = () => {
 
                     <hr  className='mt-[60px] hrLine'/>
 
-                    <p className='text-center text-[14px] pb-[10px] mt-[30px]'>Copyright 2023 all rights reserved by Designer Jubayer Developed By Mahbub </p>
+                    <p className='text-center text-[14px] pb-[10px] mt-[30px]'>Copyright 2023 all rights reserved by Designer Jubayer <span className='opacity-60'>||</span> Developed By Mahbub </p>
 
                 </div>
 

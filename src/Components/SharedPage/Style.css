@@ -77,7 +77,10 @@
 }
 
 .insectBg {
-    background-image: url(../../assets/Images/IntersectBg.png);
+    background-image: url(../../assets/Images/webBg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .GooApp {

@@ -575,9 +575,9 @@ const E_learning = () => {
 
                 </div>
 
-                <div className='insectBg'>
+                <div className=' bg-[#FDEAEE]'>
 
-                    <div className='bg-[#FDEAEE] rounded-[23px] mt-[80px]  lg:mt-[152px] p-5 lg:p-0 lg:py-[80px]'>
+                    <div className='insectBg rounded-[23px] mt-[80px]  lg:mt-[152px] p-5 lg:p-0 lg:py-[80px]'>
                         <div className='flex justify-center'>
                             <div className='flex gap-[25px] items-center '>
                                 {/* <img src={book} className='w-[59px] h-[56px]' alt="" /> */}

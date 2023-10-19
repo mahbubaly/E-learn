@@ -12,7 +12,7 @@ const Navbar = () => {
 
 
 
-            <button className=" text-[16px] font-medium text-[#002626] py-[14px] px-[14px]">Courses</button>
+            <button className="hover:text-primary text-[16px] font-medium text-[#002626] py-[14px] px-[14px]">Courses</button>
 
 
         </Link>
@@ -23,7 +23,7 @@ const Navbar = () => {
 
 
 
-            <button className=" text-[16px] font-medium text-[#002626] py-[14px] px-[14px]">About</button>
+            <button className="hover:text-primary text-[16px] font-medium text-[#002626] py-[14px] px-[14px]">About</button>
 
 
 
@@ -36,7 +36,7 @@ const Navbar = () => {
 
 
 
-            <button className=" text-[16px] font-medium text-[#002626] py-[14px] px-[14px]">Blog</button>
+            <button className="hover:text-primary text-[16px] font-medium text-[#002626] py-[14px] px-[14px]">Blog</button>
 
 
         </Link>
@@ -45,7 +45,7 @@ const Navbar = () => {
 
 
 
-            <button className=" text-[16px] font-medium text-[#002626] py-[14px] px-[14px]">Page</button>
+            <button className="hover:text-primary text-[16px] font-medium text-[#002626] py-[14px] px-[14px]">Page</button>
 
 
         </Link>
@@ -56,7 +56,7 @@ const Navbar = () => {
 
 
 
-                <button className=" text-[16px] font-medium text-[#002626] py-[14px] px-[18px]">Log In</button>
+                <button className="hover:text-primary text-[16px] font-medium text-[#002626] py-[14px] px-[18px]">Log In</button>
 
 
             </Link>
@@ -149,7 +149,7 @@ const Navbar = () => {
 
 
 
-                            <button className=" text-[16px] font-medium text-[#002626] py-[14px] px-[18px]"><span>Log In</span></button>
+                            <button className="hover:text-primary text-[16px] font-medium text-[#002626] py-[14px] px-[18px]"><span>Log In</span></button>
 
 
                         </Link>

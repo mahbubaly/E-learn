@@ -24,7 +24,7 @@ const Banner = () => {
 
                             <button className='lg:w-[159px] w-full h-[60px] bg-primary rounded-[29px] text-[16px] font-semibold text-white hover:bg-red-800'>Get Started</button>
 
-                            <button className='lg:w-[194px]  w-full  exploreCourse mt-[14px] lg:mt-0 h-[60px]  rounded-[29px] text-[16px] font-semibold text-white hover:bg-red-400 hover:text-white'>Explore Courses</button>
+                            <button className='lg:w-[194px]  w-full  exploreCourse mt-[14px] lg:mt-0 h-[60px]  rounded-[29px] text-[16px] font-semibold text-white hover:bg-primary hover:text-white'>Explore Courses</button>
                         </div>
 
 
@@ -51,14 +51,8 @@ const Banner = () => {
                 </div>
 
 
-                <Marquee speed={80}>
-                    <div className='flex lg:mt-[127px] mt-[30px]'>
-                        <div className='ml-[16px] lg:ml-[54px] lg:w-[178px] w-[51px]'>
-                            <h2 className='lg:text-[30px] text-[10px] font-bold text-primary'>250+</h2>
-
-                            <p className='lg:text-[20px] text-[8px] text-black font-medium'>Collaboration</p>
-                        </div>
-
+                <Marquee speed={70}>
+                    <div className=' lg:mt-[127px] mt-[30px]'>
                         <div className='flex gap-[16px] lg:gap-[74px]'>
                             <img src={img2} className='lg:w-[154px] w-[68px] h-[16px] lg:h-[36px]' alt="" />
                             <img src={img3} className='lg:w-[187px]  lg:h-[36px] w-[82px] h-[16px] ' alt="" />
