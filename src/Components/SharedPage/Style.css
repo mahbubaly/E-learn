@@ -2,23 +2,6 @@
     font-family: 'Inter';
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
-/* For safari chrome and google */
-.Scroll_content::-webkit-scrollbar {
-    
-    scroll-behavior: smooth;
-}
-
-/* firefox */
-
-.Scroll_content {
-    scrollbar-width: none;
-}
-
-
 
 
 
