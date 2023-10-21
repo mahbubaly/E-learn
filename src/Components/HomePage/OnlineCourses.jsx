@@ -151,7 +151,7 @@ const OnlineCourses = () => {
                 {/*  Explore Courses */}
                 <div className='lg:mt-[159px] mt-[80px]  lg:w-[920px] mx-auto lg:px-0 px-5'>
                     <div className='flex gap-[20px] justify-center'>
-                        <img src={book} className='inline-block w-[24px] h-[30px]  lg:w-[24px]  lg:h-[56px]' alt="" />
+                        <img src={book} className='inline-block w-[24px] h-[30px]  lg:w-[59px]  lg:h-[56px]' alt="" />
                         <h1 className='text-[24px] lg:text-[46px] font-semibold text-center leading-[32px] lg:leading-[60px]'> Explore Courses</h1>
 
                     </div>
@@ -166,11 +166,11 @@ const OnlineCourses = () => {
                     {/* popular ,  coding , marketing */}
 
                     {/* Laptop version  */}
-                    <div className=' sectionPink hidden lg:block'>
+                    <div className=' sectionPink  '>
 
 
 
-                        <div className=' lg:h-[120px] h-[96px] flex justify-center items-center mt-[30px]  lg:mt-[80px]'>
+                        <div className='lg:overflow-hidden  overflow-x-scroll lg:h-[120px] h-[96px] flex justify-center items-center mt-[30px]  lg:mt-[80px]'>
                             <div className='flex gap-[30px]'>
                                 <div>
                                     <button className='lg:w-[109px] w-[81px] h-[32px] lg:h-[44px] bg-primary rounded-[100px] lg:text-[16px] text-[14px] font-semibold text-white hover:bg-red-800'>Popular</button>
@@ -196,34 +196,7 @@ const OnlineCourses = () => {
                     </div>
 
                     {/* for mobile */}
-                    <div className=' sectionPink lg:hidden block'>
-
-
-
-                        <Marquee className=' lg:h-[120px] h-[96px] flex justify-center items-center mt-[30px]  lg:mt-[80px]'>
-                            <div className='flex gap-[30px]'>
-                                <div>
-                                    <button className='ml-[30px] lg:w-[109px] w-[81px] h-[32px] lg:h-[44px] bg-primary rounded-[100px] lg:text-[16px] text-[14px] font-semibold text-white hover:bg-red-800'>Popular</button>
-                                </div>
-                                <div>
-                                    <button className='lg:w-[102px] w-[75px] h-[32px] lg:h-[44px] bg-[#fff] rounded-[100px] lg:text-[16px] text-[14px] font-semibold hover:text-white   hover:bg-primary'>Recent</button>
-                                </div>
-                                <div>
-                                    <button className='lg:w-[101px] w-[75px] h-[32px] lg:h-[44px] bg-[#fff] rounded-[100px] lg:text-[16px] text-[14px] font-semibold hover:text-white   hover:bg-primary'>Design</button>
-                                </div>
-                                <div>
-                                    <button className='lg:w-[125px] w-[110px] h-[32px] lg:h-[44px] bg-[#fff] rounded-[100px] text-[16px] font-semibold hover:text-white   hover:bg-primary'>Marketing</button>
-                                </div>
-                                <div>
-                                    <button className='lg:w-[103px] w-[80px]  lg:h-[44px] h-[32px] bg-[#fff] rounded-[100px] lg:text-[16px] text-[14px] font-semibold hover:text-white   hover:bg-primary'>Coding</button>
-                                </div>
-                            </div>
-
-
-
-                        </Marquee>
-
-                    </div>
+             
                 </div>
 
 

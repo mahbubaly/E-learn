@@ -36,21 +36,21 @@ const E_learning = () => {
                         <div className='flex justify-center items-center mt-[40px] lg:mt-[30px]'>
                             <div className=''>
 
-                                <div className='flex gap-[10px] lg:gap-[14px] lg:items-center'>
+                                <div className='flex gap-[10px] lg:gap-[14px]  lg:items-center'>
                                     <img src={tikRight} className='lg:w-[24px] w-5 h-5 lg:h-[24px]' alt="" />
-                                    <p className='lg:w-[557px] font-medium text-[16px] lg:text-[22px]'>Learn creative skills to achieve your personal and professional goals.</p>
+                                    <p className='lg:w-[557px] lg:-mt-0 -mt-[4px] font-medium text-[16px] lg:text-[22px]'>Learn creative skills to achieve your personal and professional goals.</p>
                                 </div>
                                 <div className='my-5 flex gap-[10px] lg:gap-[14px] lg:items-center'>
                                     <img src={tikRight} className='lg:w-[24px] w-5 h-5 lg:h-[24px]' alt="" />
-                                    <p className='lg:w-[557px] font-medium text-[16px] lg:text-[22px]'>Tune in and level up at your own pace.</p>
+                                    <p className='lg:w-[557px] lg:-mt-0 -mt-[4px] font-medium text-[16px] lg:text-[22px]'>Tune in and level up at your own pace.</p>
                                 </div>
-                                <div className='flex gap-[10px] lg:gap-[14px] lg:items-center'>
+                                <div className='flex gap-[10px] lg:gap-[14px] items-start lg:items-center'>
                                     <img src={tikRight} className='lg:w-[24px] w-5 h-5 lg:h-[24px]' alt="" />
-                                    <p className='lg:w-[557px] font-medium text-[16px] lg:text-[22px]'>Go from dabbler to master in a matter of hours.</p>
+                                    <p className='lg:w-[557px] lg:-mt-0 -mt-[4px] font-medium text-[16px] lg:text-[22px]'>Go from dabbler to master in a matter of hours.</p>
                                 </div>
                                 <div className='mt-5 flex gap-[10px] lg:gap-[14px] lg:items-center'>
-                                    <img src={tikRight} className='lg:w-[24px] w-5 h-5 lg:h-[24px]' alt="" />
-                                    <p className='lg:w-[557px] font-medium text-[16px] lg:text-[22px]'>Connect with a global community of curious creatives.</p>
+                                    <img src={tikRight} className='lg:w-[24px]  w-5 h-5 lg:h-[24px]' alt="" />
+                                    <p className='lg:w-[557px] lg:-mt-0 -mt-[4px] font-medium text-[16px] lg:text-[22px]'>Connect with a global community of curious creatives.</p>
                                 </div>
 
 
@@ -93,6 +93,7 @@ const E_learning = () => {
                             320: {
                                 slidesPerView: 1,
                                 spaceBetween: 30,
+                                autoplay:true,
                             },
                             768: {
                                 slidesPerView: 1,

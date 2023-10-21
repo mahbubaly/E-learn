@@ -2,6 +2,24 @@
     font-family: 'Inter';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+/* For safari chrome and google */
+.Scroll_content::-webkit-scrollbar {
+    
+    scroll-behavior: smooth;
+}
+
+/* firefox */
+
+.Scroll_content {
+    scrollbar-width: none;
+}
+
+
+
 
 
 .signIn {
@@ -93,6 +111,8 @@
 .hrLine {
     border-radius: 0.5px;
     background: rgba(38, 0, 0, 0.40);
+
+    
 }
 
 /*  =====================================================================
