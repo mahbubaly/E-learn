@@ -12,7 +12,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/pagination';
-import { Pagination } from 'swiper/modules';
+import { Pagination, Autoplay, Navigation } from 'swiper/modules';
 
 
 
@@ -24,7 +24,7 @@ const E_learning = () => {
 
 
                     {/* Normal */}
-                    <div className='lg:w-[615px] mt-[30px] lg:mt-0 '>
+                    <div id='About' className='lg:w-[615px] mt-[30px] lg:mt-0 '>
                         <h1 className='lg:text-[46px] text-[24px] font-semibold lg:leading-[60px] leading-[32px]'>Why choose E-Learn for live learning?</h1>
                         <p className='lg:text-[20px] text-[14px] textBlack mt-[18px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form,There are many variations of passages.</p>
 
@@ -85,15 +85,22 @@ const E_learning = () => {
                 <div className='mt-[50px] lg:mt-[80px]'>
                     <Swiper
 
+
+                        autoplay={{
+                            delay: 3000,
+                           
+                        }}
                         pagination={{
                             clickable: true,
-
                         }}
+                        navigation={true}
+
+                  
                         breakpoints={{
                             320: {
                                 slidesPerView: 1,
                                 spaceBetween: 30,
-                                autoplay:true,
+                               
                             },
                             768: {
                                 slidesPerView: 1,
@@ -104,13 +111,13 @@ const E_learning = () => {
                                 spaceBetween: 30,
                             },
                         }}
-                        modules={[Pagination]}
+                        modules={[Pagination, Autoplay]}
                         className="mySwiper"
                     >
                         <SwiperSlide className='lg:pb-[71px] pb-[120px]'>
 
                             <div className='lg:flex gap-[30px] '>
-                                <div className='slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className=' slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -133,7 +140,7 @@ const E_learning = () => {
 
                                 </div>
 
-                                <div className='slideBox py-[50px] px-[30px] w-[370px]'>
+                                <div className=' lg:block hidden  slideBox py-[50px] px-[30px] w-[370px]'>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -156,7 +163,7 @@ const E_learning = () => {
 
                                 </div>
 
-                                <div className='slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className='lg:block hidden  slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -185,7 +192,7 @@ const E_learning = () => {
                         <SwiperSlide>
                             <div className='lg:flex gap-[30px]'>
                                 {/* 1 */}
-                                <div className='slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className='  slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -210,7 +217,7 @@ const E_learning = () => {
 
                                 {/* 2 */}
 
-                                <div className='slideBox my-[30px] lg:my-0 py-[50px] px-[30px] w-[370px] '>
+                                <div className='lg:block hidden  slideBox my-[30px] lg:my-0 py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -235,7 +242,7 @@ const E_learning = () => {
 
                                 {/* 3 */}
 
-                                <div className='slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className='lg:block hidden  slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -264,7 +271,7 @@ const E_learning = () => {
                             {/* 1 */}
                             <div className='lg:flex gap-[30px]'>
                                 {/* 1 */}
-                                <div className='slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className=' slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -288,7 +295,7 @@ const E_learning = () => {
                                 </div>
                                 {/* 2 */}
 
-                                <div className='my-[30px] lg:my-0 slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className='my-[30px] lg:my-0 lg:block hidden  slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -311,7 +318,7 @@ const E_learning = () => {
 
                                 </div>
                                 {/* 3 */}
-                                <div className='slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className='lg:block hidden  slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -341,7 +348,7 @@ const E_learning = () => {
 
                             <div className='lg:flex gap-[30px]'>
                                 {/* 1 */}
-                                <div className='slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className='  slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -365,7 +372,7 @@ const E_learning = () => {
                                 </div>
                                 {/*  */}
 
-                                <div className='my-[30px] lg:my-0 slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className='my-[30px] lg:my-0 lg:block hidden  slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -389,7 +396,7 @@ const E_learning = () => {
                                 </div>
                                 {/* 3 */}
 
-                                <div className='slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className='lg:block hidden  slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -420,7 +427,7 @@ const E_learning = () => {
 
                             <div className='lg:flex gap-[30px]'>
                                 {/* 1 */}
-                                <div className='slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className='  slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -444,7 +451,7 @@ const E_learning = () => {
                                 </div>
                                 {/*  */}
 
-                                <div className='my-[30px] lg:my-0 slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className='my-[30px] lg:my-0 lg:block hidden  slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -468,7 +475,7 @@ const E_learning = () => {
                                 </div>
                                 {/* 3 */}
 
-                                <div className='slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className='lg:block hidden  slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -498,7 +505,7 @@ const E_learning = () => {
 
                             <div className='lg:flex gap-[30px]'>
                                 {/* 1 */}
-                                <div className='slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className='  slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -522,7 +529,7 @@ const E_learning = () => {
                                 </div>
                                 {/*  */}
 
-                                <div className='my-[30px] lg:my-0 slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className='my-[30px] lg:my-0 lg:block hidden  slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -546,7 +553,7 @@ const E_learning = () => {
                                 </div>
                                 {/* 3 */}
 
-                                <div className='slideBox py-[50px] px-[30px] w-[370px] '>
+                                <div className='lg:block hidden  slideBox py-[50px] px-[30px] w-[370px] '>
                                     <div className='flex gap-[16px] items-center'>
                                         <img src={Danial} className='w-[74px] h-[74px]' alt="" />
                                         <div>
@@ -576,7 +583,7 @@ const E_learning = () => {
 
                 </div>
 
-                <div className=' bg-[#FDEAEE]'>
+                <div className=' '>
 
                     <div className='insectBg rounded-[23px] mt-[80px]  lg:mt-[152px] p-5 lg:p-0 lg:py-[80px]'>
                         <div className='flex justify-center'>

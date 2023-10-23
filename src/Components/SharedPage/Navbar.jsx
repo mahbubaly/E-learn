@@ -1,23 +1,24 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+
 import { FaBars, FaTimes } from 'react-icons/fa';
 import '../SharedPage/Style.css'
+import { Link } from 'react-scroll';
 
 const Navbar = () => {
     const navbar = <>
 
-        <Link  className='' onClick={() => setOpen(!open)} >
+        <Link to='courses'   className='' onClick={() => setOpen(!open)} >
 
 
 
 
 
-            <button className="hover:text-primary text-[16px] font-medium text-[#002626] py-[14px] px-[14px]">Courses</button>
+            <button  className="hover:text-primary text-[16px] font-medium text-[#002626] py-[14px] px-[14px]">Courses</button>
 
 
         </Link>
 
-        <Link  className='' onClick={() => setOpen(!open)} >
+        <Link to='About'  className='' onClick={() => setOpen(!open)} >
 
 
 
@@ -31,7 +32,7 @@ const Navbar = () => {
         </Link>
 
 
-        <Link  onClick={() => setOpen(!open)}  >
+        <Link to='blogs'  onClick={() => setOpen(!open)}  >
 
 
 
@@ -118,7 +119,7 @@ const Navbar = () => {
 
                         {/* Mobile */}
 
-                        <div className={`block bg-yellow-200 lg:hidden  bgBannerImg_1 lg:col-span-3  absolute lg:static lg:w-auto top-0 left-0 overflow-hidden h-full lg:h-auto duration-500    lg:bg-[transparent] lg:p-0 z-50 ${open ? "w-full  p-5" : "w-0"}`}>
+                        <div className={`block bg-white lg:hidden   lg:col-span-3  absolute lg:static lg:w-auto top-0 left-0 overflow-hidden h-full lg:h-auto duration-500    lg:bg-[transparent] lg:p-0 z-50  ${open ? "w-full  p-5" : "w-0"}`}>
 
                             <div className='flex  justify-between'>
                                 <ul className='flex  flex-col  '>

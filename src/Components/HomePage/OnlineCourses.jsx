@@ -29,7 +29,7 @@ const OnlineCourses = () => {
     return (
         <>
             <div className='container mx-auto mt-[80px] lg:mt-[115px]'>
-                <div className='lg:w-[920px] mx-auto lg:p-0 p-5'>
+                <div id='courses' className='lg:w-[920px] mx-auto lg:p-0 p-5'>
                     <div className='flex lg:gap-[41px] justify-center'>
                         <img src={book} className='inline-block lg:mt-0 mt-[25px] w-[22px] h-[22px]  lg:w-[59px] lg:h-[56px]' alt="" />
                         <h1 className='lg:text-[46px] text-[24px] font-semibold text-center w-[600px] lg:leading-[60px] leading-[32px]'> Explore 4000+ Free Online Courses</h1>
@@ -149,7 +149,7 @@ const OnlineCourses = () => {
 
 
                 {/*  Explore Courses */}
-                <div className='lg:mt-[159px] mt-[80px]  lg:w-[920px] mx-auto lg:px-0 px-5'>
+                <div  className='lg:mt-[159px] mt-[80px]  lg:w-[920px] mx-auto lg:px-0 px-5'>
                     <div className='flex gap-[20px] justify-center'>
                         <img src={book} className='inline-block w-[24px] h-[30px]  lg:w-[59px]  lg:h-[56px]' alt="" />
                         <h1 className='text-[24px] lg:text-[46px] font-semibold text-center leading-[32px] lg:leading-[60px]'> Explore Courses</h1>
@@ -173,7 +173,7 @@ const OnlineCourses = () => {
 
                         <div className=' lg:h-[120px] h-[96px] flex justify-center items-center mt-[30px]  lg:mt-[80px]'>
 
-                            <div className='lg:overflow-hidden  overflow-x-scroll '>
+                            <div className='lg:overflow-hidden  Scroll_content  overflow-x-scroll '>
                                 <div className='flex gap-[30px]'>
                                     <div>
                                         <button className='lg:w-[109px] w-[81px] h-[32px] lg:h-[44px] bg-primary rounded-[100px] lg:text-[16px] text-[14px] font-semibold text-white hover:bg-red-800'>Popular</button>
@@ -210,7 +210,7 @@ const OnlineCourses = () => {
 
                 {/* video play */}
 
-                <div className='mt-[30px] lg:flex gap-[30px] lg:p-0 p-5'>
+                <div id='blogs' className='mt-[30px] lg:flex gap-[30px] lg:p-0 p-5'>
                     {/* 1 */}
                     <div className='VideoBox hover:bg-primary hover:text-white lg:w-[370px] p-5'>
 

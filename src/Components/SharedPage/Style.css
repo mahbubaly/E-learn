@@ -2,12 +2,31 @@
     font-family: 'Inter';
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* For safari chrome and google */
+.Scroll_content::-webkit-scrollbar {
+    width: 0;
+
+    scroll-behavior: smooth;
+}
+
+
+
+
 
 
 
 .signIn {
     border-radius: 50px;
     border: 1px solid rgba(238, 42, 82, 0.40);
+    background: rgba(238, 42, 82, 0.10);
+}
+
+.phoneNav {
     background: rgba(238, 42, 82, 0.10);
 }
 
@@ -78,7 +97,7 @@
 }
 
 .insectBg {
-    background-image: url(../../assets/Images/webBg.jpg);
+    background-image: url(../../assets/Images/webBg.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -95,7 +114,7 @@
     border-radius: 0.5px;
     background: rgba(38, 0, 0, 0.40);
 
-    
+
 }
 
 /*  =====================================================================
@@ -109,7 +128,7 @@
     .container {
         max-width: 320px;
 
-       
+
 
     }
 
